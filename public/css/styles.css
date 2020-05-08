@@ -1,0 +1,38 @@
+
+body {
+  background-color: #E8ECEF;
+   width: 100%;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+.jumbotron{
+  width: 50%
+  padding-top: 200px;
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+ 
+
+.container  mt-5{
+  width: 50%
+ text:red;
+
+}
+.col-sm-8{
+  display: center;
+}
+.card{
+
+}

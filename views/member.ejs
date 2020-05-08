@@ -1,0 +1,57 @@
+<%- include('partials/header') %>
+<div class="container mt-5">
+  <h1>Membership Form</h1>
+
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="card">
+        <div class="card-body">
+
+          <!-- Makes POST request to /register route -->
+          <form action="/member" method="POST" class="form-member">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" class="form-control" name="firstName">
+            </div>
+            <div class="form-group">
+              <label>Second Name</label>
+              <input type="text" class="form-control" name="Secondname">
+            </div>
+            <div class="form-group">
+              <label>Date of Birth</label>
+              <input type="date" class="form-control" name="birthday">
+            </div>
+            <div class="form-group">
+              <label>City</label>
+              <input type="text" class="form-control" name="city">
+            </div>
+            <div class="form-group">
+              <label>University/Institute</label>
+              <input type="text" class="form-control" name="university">
+            </div>
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="number" class="form-control" name="phone">
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="col-sm-4">
+      <div class="card social-block">
+        <div class="card-body">
+          <a class="btn btn-block" href="/auth/google" role="button">
+            <i class="fab fa-google"></i>
+            Sign Up with Google
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+</div>
+
+<%- include('partials/header') %>
